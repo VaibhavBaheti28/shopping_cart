@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    padding: 20px;
+    font-size: 30px;
+    justify-content: space-between;
+    text-align: centre;
+    margin :0;
+    background-color: black;
+    color: white;
+}
+
+.LeftSide
+{
+    display: flex;
+    flex: 0.3;
+    justify-content: space-around;
+    padding: 20 px;
+    text-decoration: none;
+
+}
+
+.RightSide{
+    display:flex;
+    flex:0.7;
+    justify-content: flex-end;
+}
+

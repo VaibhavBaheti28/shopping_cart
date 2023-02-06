@@ -1,0 +1,99 @@
+.items {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 300px;
+    margin: 30px;
+    height: auto;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+  .items .productname
+  {
+    width: 300px;
+    height: 60px;
+    text-align: center;
+  }
+  .items
+  {
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+  }
+  .itemImage
+  {
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+  }
+  
+
+  .items:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+  
+  .items div {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .items h1
+  {
+    height: 10px;
+  }
+
+  .items .captions
+  {
+    display: flex;
+    gap: 0px 20px;
+    align-content: flex-start;
+    flex-direction: column;
+    background-color: white;
+    width: 300px;
+    height: 120px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+  .items .symbols
+  {
+    display: flex;
+    gap: 80px;
+    height: 60px;
+    width: 300px;
+    object-fit: contain;
+    justify-content: space-between;
+  }
+
+  .remove
+  {
+    font-size: medium;
+    height: 70%;
+
+  }
+  .remove:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+  .add
+  {
+    font-size: medium;
+    height:70%;
+  }
+  .add:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+  }
+  
