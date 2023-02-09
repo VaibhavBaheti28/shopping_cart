@@ -10,12 +10,7 @@
     height: auto;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
-  .items .productname
-  {
-    width: 300px;
-    height: 60px;
-    text-align: center;
-  }
+  
   .items
   {
     border-style: solid;
@@ -67,13 +62,31 @@
 
   .items .symbols
   {
-    display: flex;
-    gap: 80px;
     height: 60px;
     width: 300px;
-    object-fit: contain;
-    justify-content: space-between;
+    align-items: center;
   }
+
+  .items .productname
+  {
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .items .productname .tag
+  {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 80px;
+  }
+
 
   .remove
   {
