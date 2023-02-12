@@ -7,7 +7,6 @@ import { CartItems } from '../helper/CartItems';
 
 function CartItem({cartName , cartPrice ,cartQuantity}) {
 
- 
   const[quantity,setQuantity]=useState(cartQuantity)
 
   function decrementCount(){
@@ -24,6 +23,7 @@ function CartItem({cartName , cartPrice ,cartQuantity}) {
     setQuantity(currQuantity=> currQuantity+1)
   }
 
+ 
   for(let i=0;i<CartItems.length;i++)
     {
       if(CartItems[i].cartName===cartName)
@@ -41,6 +41,7 @@ function CartItem({cartName , cartPrice ,cartQuantity}) {
     CartItems.push(...filtered)
     console.log(filtered)
     console.log("CartItems", CartItems)
+    console.log(window.location)
   }
 
   return (

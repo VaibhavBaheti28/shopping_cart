@@ -5,23 +5,22 @@ import "../Styles/Cart.css"
 
 function Cart() {
   console.log(CartItems);
-
   return (
     <div className='cart'>
       <h1 className='carttitle'>Cart</h1>
       <div className='cartitems'>
         {
-          CartItems.map((item)=>
+          CartItems.map((item,key)=>
           {
             return(
               <CartItem
+                key={key}
                 cartName={item.cartName}
                 cartPrice={item.cartPrice}
                 cartQuantity={item.cartQuantity}
               />
             );
           })}
-
       </div>
     </div>
   )
