@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/VaibhavBaheti28/shopping_cart/static/css/main.c615d342.css",
+    "main.js": "/VaibhavBaheti28/shopping_cart/static/js/main.8d1ed301.js",
+    "static/js/787.d6fe38e8.chunk.js": "/VaibhavBaheti28/shopping_cart/static/js/787.d6fe38e8.chunk.js",
+    "static/media/Home.jpg": "/VaibhavBaheti28/shopping_cart/static/media/Home.2d296791bb0a63321a4e.jpg",
+    "static/media/Headphones.jpeg": "/VaibhavBaheti28/shopping_cart/static/media/Headphones.62de505efc8a1edc0192.jpeg",
+    "static/media/Laptop.jpg": "/VaibhavBaheti28/shopping_cart/static/media/Laptop.7109b56560ea6357e2dc.jpg",
+    "static/media/Phone.jpg": "/VaibhavBaheti28/shopping_cart/static/media/Phone.88760ec1ecbf74c54e50.jpg",
+    "static/media/IPad.jpg": "/VaibhavBaheti28/shopping_cart/static/media/IPad.938d93d685640ab449f9.jpg",
+    "index.html": "/VaibhavBaheti28/shopping_cart/index.html",
+    "main.c615d342.css.map": "/VaibhavBaheti28/shopping_cart/static/css/main.c615d342.css.map",
+    "main.8d1ed301.js.map": "/VaibhavBaheti28/shopping_cart/static/js/main.8d1ed301.js.map",
+    "787.d6fe38e8.chunk.js.map": "/VaibhavBaheti28/shopping_cart/static/js/787.d6fe38e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c615d342.css",
+    "static/js/main.8d1ed301.js"
+  ]
+}
